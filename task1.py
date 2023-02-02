@@ -7,4 +7,4 @@ a = int(i/100)
 b = int((i%100)/10)
 c = int(i%10)
 s = a+b+c
-print(s, a, b, c)
+print(f'сумма цифр равна {s}')
